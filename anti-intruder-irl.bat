@@ -4,6 +4,6 @@
 :: In addition, it's recommended to convert this to an EXE file
 :: Otherwise, a batch file might look suspicious
 :: See README.md for info before proceeding
-echo Intruder detected > %userprofile%
+echo Intruder detected > %userprofile%\intruder.txt
 rundll32.exe user32.dll, LockWorkStation
 cls
